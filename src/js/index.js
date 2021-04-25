@@ -27,10 +27,10 @@ var checkAndUpdateStatus = function() {
 
 			if (isActive === true) {
 				newStatus.innerHTML = "ON";
-				newStatus.style.color = "#069270";
+				newStatus.style.color = "#228b22";
 			} else {
 				newStatus.innerHTML = "OFF";
-				newStatus.style.color = "#960018";
+				newStatus.style.color = "#c63c34";
 			}
 			status.parentNode.replaceChild(newStatus, status);
 		})
