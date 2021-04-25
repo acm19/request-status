@@ -27,7 +27,7 @@ var checkAndUpdateStatus = function() {
 
 			if (isActive === true) {
 				newStatus.innerHTML = "ON";
-				newStatus.style.color = "#228b22";
+				newStatus.style.color = "#108e54";
 			} else {
 				newStatus.innerHTML = "OFF";
 				newStatus.style.color = "#c63c34";
